@@ -7,6 +7,7 @@ const LongTalk = ({ color, talk1, talk2 }) => {
       color: `${color}`,      
     }}>
 
+
       <p>
         { talk1 }
       </p>
@@ -14,6 +15,7 @@ const LongTalk = ({ color, talk1, talk2 }) => {
       <p>
         { talk2 }
       </p>
+
 
     </div>
   )
