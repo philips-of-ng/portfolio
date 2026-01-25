@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useLocation, Link } from 'react-router-dom'
 import '../css/navbar.css'
-import userImage from '../assets/images/philips.jpg'
+import userImage from '../assets/images/hyper.svg'
 
 
 const Navbar = () => {
