@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <header>
       <nav>
-        <div className="dp">
+        <div className="dp" style={{backgroundColor: 'white'}}>
           <Link to="/">
             <img src={ userImage } alt="" />
           </Link>

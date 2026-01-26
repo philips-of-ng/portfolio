@@ -53,12 +53,13 @@ header nav {
 .dp {
   width: 40px;
   height: 40px;
-  border: 2px solid white;
+  border: 2px solid whitesmoke;
   border-radius: 100%;
   padding: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px double #ff7e5f;
 
 }
 
@@ -75,7 +76,9 @@ header nav {
   border-radius: inherit;
   object-fit: cover;
   object-position: center;
-  border: 1px solid white;
+  border: 2px solid black;
+  padding: 2px;
+  display: block;
 }
 
 .the-nav {
