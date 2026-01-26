@@ -23,7 +23,7 @@ export default function App() {
       <div className='glow-2'></div>
       <div className='glow-3'></div>
 
-      <Router basename="/portfolio">
+      <Router>
         <Navbar />
         <main>
           <ScrollToTop />
