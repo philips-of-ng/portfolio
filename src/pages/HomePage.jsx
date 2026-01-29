@@ -141,7 +141,7 @@ const HomePage = () => {
             <WorksAndProjects>
               {
                 projects && Array.isArray(projects) ? (
-                  projects.map((project, index) => {
+                  projects.slice(0, 6).map((project, index) => {
                     return (
                       <OneProject project={project} key={index} />
                     )
