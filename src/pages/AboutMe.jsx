@@ -198,10 +198,10 @@ const AboutMe = () => {
 
   return (
     <>
-      <OtherHero theText={`Hi, I’m Edun Philips, a 20 year old Frontend Developer from Ibadan, Nigeria. I'm Passionate about creating visually stunning, intuitive, and highly functional web experiences that enhance user interaction and solve real-world problems.`} theSub={'Available for projects'} theImg={portrait} />
+      <OtherHero theText={`Hi, I’m Edun Philips, a 20 year old Full Stack Web and Mobile Developer from Ibadan, Nigeria. I'm Passionate about creating visually stunning, intuitive, and highly functional web experiences that enhance user interaction and solve real-world problems.`} theSub={'Available for projects'} theImg={portrait} />
 
 
-      <LongTalk talk1={'Over the years, I’ve honed my skills in creating seamless, pixel-perfect interfaces while keeping performance and accessibility top of mind. I’m constantly exploring new tools and technologies, such as Tailwind CSS and TypeScript, to ensure I’m delivering cutting-edge solutions.'} talk2={'Beyond the code, I thrive on solving complex problems, optimizing workflows, and working closely with designers and developers to build web applications that not only function flawlessly but also deliver an exceptional user experience.'} color={'white'} />
+      <LongTalk talk1={'Over the years, I’ve honed my skills in creating seamless, pixel-perfect interfaces and efficient backend systems while keeping performance and accessibility top of mind. I’m constantly exploring new tools and technologies, such as Next and TypeScript, to ensure I’m delivering cutting-edge solutions.'} talk2={'Beyond the code, I thrive on solving complex problems, optimizing workflows, and working closely with designers and developers to build web applications that not only function flawlessly but also deliver an exceptional user experience.'} color={'white'} />
 
 
 
