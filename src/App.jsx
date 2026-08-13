@@ -11,8 +11,9 @@ import ScrollToTop from './components/ScrollToTop';
 import BookACall from './pages/BookACall';
 import OneProjectPage from './pages/OneProjectPage';
 import NotFound from './pages/NotFound';
-import UploadInfo from './admin/admin-pages/UploadInfo';
+import UploadInfo from './admin/admin-pages/Admin';
 import OneAlbumPage from './pages/OneAlbumPage';
+import InvoiceStudio from './admin/admin-components/InvoiceStudio';
 
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
 
             <Route path='*' element={<NotFound />} />
             <Route path='/admin-only' element={<UploadInfo />} />
+            <Route path='/admin-only/invoice-studio' element={<InvoiceStudio />} />
           </Routes>
         </main>
         <Footer />
