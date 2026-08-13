@@ -14,6 +14,7 @@ import NotFound from './pages/NotFound';
 import UploadInfo from './admin/admin-pages/Admin';
 import OneAlbumPage from './pages/OneAlbumPage';
 import InvoiceStudio from './admin/admin-components/InvoiceStudio';
+import Admin from './admin/admin-pages/Admin';
 
 
 export default function App() {
@@ -39,8 +40,7 @@ export default function App() {
             <Route path='/album' element={<OneAlbumPage />} />
 
             <Route path='*' element={<NotFound />} />
-            <Route path='/admin-only' element={<UploadInfo />} />
-            <Route path='/admin-only/invoice-studio' element={<InvoiceStudio />} />
+            <Route path='/admin-only' element={<Admin />} />
           </Routes>
         </main>
         <Footer />
